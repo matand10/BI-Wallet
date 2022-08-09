@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BI-Wallet/static/css/main.d81d9de4.css",
+    "main.js": "/BI-Wallet/static/js/main.8481504c.js",
+    "static/media/profile.png": "/BI-Wallet/static/media/profile.d01abbcccb969a871331.png",
+    "static/media/Roboto-Regular.ttf": "/BI-Wallet/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "index.html": "/BI-Wallet/index.html",
+    "main.d81d9de4.css.map": "/BI-Wallet/static/css/main.d81d9de4.css.map",
+    "main.8481504c.js.map": "/BI-Wallet/static/js/main.8481504c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d81d9de4.css",
+    "static/js/main.8481504c.js"
+  ]
+}
