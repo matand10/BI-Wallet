@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/BI-Wallet/static/css/main.3e49d035.css",
-    "main.js": "/BI-Wallet/static/js/main.2bff9e28.js",
+    "main.js": "/BI-Wallet/static/js/main.8b6eac5c.js",
     "index.html": "/BI-Wallet/index.html",
     "main.3e49d035.css.map": "/BI-Wallet/static/css/main.3e49d035.css.map",
-    "main.2bff9e28.js.map": "/BI-Wallet/static/js/main.2bff9e28.js.map"
+    "main.8b6eac5c.js.map": "/BI-Wallet/static/js/main.8b6eac5c.js.map"
   },
   "entrypoints": [
     "static/css/main.3e49d035.css",
-    "static/js/main.2bff9e28.js"
+    "static/js/main.8b6eac5c.js"
   ]
 }
