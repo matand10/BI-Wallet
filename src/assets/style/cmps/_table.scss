@@ -1,0 +1,161 @@
+.main-table {
+    margin-top: 1.5rem;
+    position: relative;
+}
+
+.transactions-card {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 3rem;
+
+    & h3 {
+        color: $color3;
+        padding: 1rem;
+    }
+
+    & table {
+        width: 100%;
+        border-collapse: collapse;
+
+        & thead {
+            background: #efefef;
+            text-align: left;
+        }
+
+        & tbody {
+
+            & tr:hover .table-row-modal {
+                z-index: 0;
+                opacity: 1;
+                right: -55px;
+            }
+        }
+
+        & td,
+        & th {
+            font-size: .9rem;
+            padding: .8rem 1rem;
+            color: $color2;
+        }
+
+        & td {
+            font-size: .9rem;
+        }
+
+        & tr:nth-child(even) {
+            background-color: #f9fafc;
+        }
+    }
+
+}
+
+.badge {
+    padding: .5rem 1rem;
+    border-radius: 20px;
+    color: $green;
+}
+
+.badge.expense {
+    color: $red;
+}
+
+.responsive-table {
+    overflow-x: auto;
+
+}
+
+.paging-btn {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+
+    & button {
+        color: $color3;
+        padding: .5rem;
+        border-radius: 50%;
+        transition: background-color .2s;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.table-row-modal {
+    position: absolute;
+    background-color: #fff;
+    transition: .2s;
+    z-index: 10;
+    right: 0;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 1rem 0.5rem;
+
+    & span {
+        font-size: 1rem;
+        padding: .2rem;
+        cursor: pointer;
+        transition: .2s;
+        border-radius: 50%;
+
+        &:hover {
+            background-color: lightgray;
+        }
+    }
+}
+
+.table-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.table-action-container {
+    padding: .5rem 1rem;
+    display: flex;
+    gap: 2rem;
+
+    & button {
+        padding: 0 1rem;
+        transition: .2s;
+
+        &:hover {
+            background-color: lightgray;
+        }
+    }
+}
+
+.table-menu {
+    padding-inline-end: .5rem;
+    display: flex;
+    gap: .3rem;
+}
+
+@media (max-width: 960px) {
+    .table-menu {
+        display: flex;
+    }
+
+    .table-action-container {
+        display: none;
+    }
+}
+
+.table-button {
+    padding: .5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: .2s;
+
+    &:hover {
+        background-color: lightgray;
+    }
+}

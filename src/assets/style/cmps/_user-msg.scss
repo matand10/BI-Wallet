@@ -1,0 +1,45 @@
+.user-indicate-msg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 1rem;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-size: 1.4em;
+    position: fixed;
+    height: 75px;
+    top: 10%;
+    right: 40%;
+    animation: user-msg .4s;
+}
+
+.user-indicate-msg button {
+    padding: 10px;
+    border: 0;
+    border-radius: 50%;
+    margin: 5px;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    cursor: pointer;
+}
+
+.user-indicate-msg.success {
+    background-color: #59CE8F;
+}
+
+.user-indicate-msg.danger {
+    background-color: rgb(216, 59, 59);
+}
+
+@keyframes user-msg {
+    from {
+        transform: translateY(-10px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}

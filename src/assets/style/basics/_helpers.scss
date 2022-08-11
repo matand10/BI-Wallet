@@ -1,0 +1,31 @@
+.flex {
+    display: flex;
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.clean-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.divider {
+    background-color: $color1;
+    width: 100%;
+    height: 1px;
+}
+
+.pointer {
+    cursor: pointer;
+}

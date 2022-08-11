@@ -1,0 +1,18 @@
+// Setup
+@import '../style/setup/_variables.scss';
+
+// Basics
+@import '../style/basics/_helpers.scss';
+@import '../style/basics/_base.scss';
+
+// Cmps
+@import '../style/cmps/_sidebar.scss';
+@import '../style/cmps/_dashboard.scss';
+@import '../style/cmps/_table.scss';
+@import '../style/cmps/_panel.scss';
+@import '../style/cmps/_user-msg.scss';
+@import '../style/cmps/_chart.scss';
+
+// Modal
+@import '../style/cmps/_modal.scss';
+@import '../style/cmps/_table-menu.scss';

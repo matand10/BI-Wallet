@@ -1,0 +1,33 @@
+.main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input {
+    width: 100%;
+}
+
+.header-search-input {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+
+    & input {
+        border: none;
+        height: 30px;
+        width: 100%;
+        border-radius: 4px;
+        padding-inline-start: 10px;
+    }
+}
+
+.search-btn {
+    background-color: rgb(219, 168, 101);
+    padding: 9px;
+    border-radius: 4px;
+}
